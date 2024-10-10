@@ -1,0 +1,112 @@
+body{
+    background-image: url(./imgs/paisaje\ del\ oso.jpg);
+     font-family: sans-serif;
+     color: rgb(0, 0, 0);
+ }
+ main{
+ width: 730px;
+ margin: 100px auto 50px;
+ display: flex;
+ align-items: center;
+ }
+ .section1{
+ background-color: rgb(255, 255, 255,0.2);
+ padding: 0 10px 10px 10px;
+ border-radius: 8px;
+ }
+ 
+ h1{
+     text-align: center;
+     font-size: 20px;
+ }
+ button{
+ height: 100px;
+ width: 100px;
+ font-size: 40px;
+ color: black;
+ font-weight: bold;
+ }
+ button:hover{
+ cursor: pointer;
+ 
+ }
+ .section2{
+     padding: 0 20px;
+ background-color: rgba(255,255,255,0.2);
+ width: 250px;
+ height: 400px;
+ border-top-right-radius: 8px;
+ border-bottom-right-radius: 8px;
+ }
+ .estadisticas{
+ border: 3px solid rgb(255, 255, 255);
+ height: 105px;
+ padding: 8px 20px ;
+ box-sizing: border-box;
+ }
+ footer{
+ text-align: center;
+ 
+ 
+ }
+ a{
+ text-decoration: none;
+ color: rgb(8, 164, 0);
+ }
+ img{
+ margin-left: -8.9px;
+ 
+ }
+ #retornar {
+     display: none; /* Ocultarlo por defecto */
+     margin: 20px auto;
+     padding: 15px 10px; /* Reducir el padding para hacerlo más alto y menos ancho */
+     font-size: 16px; /* Reducir el tamaño de la fuente */
+     font-weight: bold;
+     color: white;
+     background-color: #007bff; /* Color azul */
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s ease, transform 0.3s ease;
+     width: 300px; /* Ajustar el ancho del botón */
+     height: 50px;
+     text-align: center; /* Centra el texto */
+     border-radius: 6px; /* Bordes redondeados */
+ }
+ 
+ #retornar:hover {
+     background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+     transform: translateY(-2px);
+ }
+ 
+ #retornar:active {
+     transform: translateY(0);
+ }
+
+@media only screen and (max-width: 350px) {
+    /* Ajustar imágenes */
+    img {
+      max-width: 49px; /* Ajustar ancho máximo de la imagen al ancho de la pantalla */
+      height: auto; /* Ajustar alto de la imagen automáticamente */
+      max-height: 49px;
+      margin-top: -2px;
+      margin-right: 0.3px;
+    }
+    
+    /* Ajustar otros elementos según sea necesario */
+    main {
+      width: 100%; /* Ajustar ancho del elemento main al ancho de la pantalla */
+    }
+    
+    .section1 {
+      padding: 0 5px 10px 5px; /* Ajustar padding para que se vea bien en pantallas pequeñas */
+    }
+    
+    button {
+      height: 50px; /* Ajustar alto de los botones */
+      width: 50px; /* Ajustar ancho de los botones */
+      font-size: 20px; /* Ajustar tamaño de la fuente de los botones */
+    }
+    
+    /* Ajustar otros elementos según sea necesario */
+  }
